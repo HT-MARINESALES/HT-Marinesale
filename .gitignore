@@ -1,0 +1,29 @@
+node_modules/
+dist/
+build/
+
+# Environment files (NEVER commit these - they contain secrets)
+.env
+.env.local
+.env.production
+.env.staging
+**/.env
+**/.env.local
+**/.env.production
+**/.env.staging
+frontend/.env
+frontend/.env.vercel.local
+backend/.env
+
+# Keep .env.example files (they are safe templates without real secrets)
+!.env.example
+!**/.env.example
+!frontend/.env.example
+!backend/.env.example
+
+.DS_Store
+*.log
+.turbo/
+coverage/
+*.tsbuildinfo
+.vercel

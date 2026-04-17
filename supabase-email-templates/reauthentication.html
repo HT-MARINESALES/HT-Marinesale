@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sicherheitscode – HT-Marineservice</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background-color: #edf2f7;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: #1a202c;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrapper { width: 100%; padding: 40px 16px; }
+    .card {
+      max-width: 560px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 24px rgba(15, 52, 96, 0.10);
+    }
+    .header {
+      background: linear-gradient(135deg, #0a2345 0%, #0f3460 100%);
+      padding: 36px 40px 32px;
+      text-align: center;
+      position: relative;
+    }
+    .header::after {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #3a5f9f, #4267a5, #5e7eb3);
+    }
+    .logo-text { font-size: 20px; font-weight: 700; color: #ffffff; letter-spacing: -0.3px; }
+    .logo-text span { color: #9fb2d3; }
+    .header-tagline { font-size: 11px; color: #7a94c0; letter-spacing: 1.5px; text-transform: uppercase; margin-top: 4px; }
+    .body { padding: 40px 40px 32px; }
+    .shield-icon {
+      width: 64px;
+      height: 64px;
+      background: linear-gradient(135deg, #e8edf5, #c5d0e5);
+      border-radius: 16px;
+      margin: 0 auto 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+    }
+    h1 { font-size: 22px; font-weight: 700; color: #0f3460; text-align: center; margin-bottom: 12px; line-height: 1.3; }
+    .intro { font-size: 15px; color: #4a5568; text-align: center; line-height: 1.6; margin-bottom: 32px; }
+    /* OTP Code Display */
+    .otp-wrap {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+    .otp-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #a0aec0;
+      margin-bottom: 14px;
+    }
+    .otp-code {
+      display: inline-flex;
+      gap: 8px;
+      background: #0f3460;
+      padding: 18px 28px;
+      border-radius: 12px;
+      margin-bottom: 10px;
+    }
+    .otp-code span {
+      font-size: 28px;
+      font-weight: 800;
+      color: #ffffff;
+      font-family: 'Courier New', 'Lucida Console', monospace;
+      letter-spacing: 6px;
+      display: block;
+    }
+    .otp-hint {
+      font-size: 12px;
+      color: #a0aec0;
+    }
+    .validity-strip {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: #fffbeb;
+      border: 1px solid #fde68a;
+      border-radius: 8px;
+      padding: 10px 16px;
+      margin-bottom: 28px;
+    }
+    .validity-strip .dot { width: 8px; height: 8px; background: #f59e0b; border-radius: 50%; flex-shrink: 0; }
+    .validity-strip p { font-size: 13px; color: #92400e; font-weight: 500; }
+    .divider { height: 1px; background: #e8edf5; margin: 0 0 24px; }
+    .security-tips {
+      background: #f7fafc;
+      border-radius: 10px;
+      padding: 18px 22px;
+      margin-bottom: 0;
+    }
+    .security-tips p.heading {
+      font-size: 12px;
+      font-weight: 700;
+      color: #718096;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .security-tips ul {
+      list-style: none;
+      padding: 0;
+    }
+    .security-tips ul li {
+      font-size: 13px;
+      color: #4a5568;
+      padding: 4px 0;
+      padding-left: 18px;
+      position: relative;
+      line-height: 1.4;
+    }
+    .security-tips ul li::before {
+      content: '·';
+      position: absolute;
+      left: 6px;
+      color: #3a5f9f;
+      font-weight: 700;
+    }
+    .footer { background: #f7fafc; border-top: 1px solid #e8edf5; padding: 24px 40px; text-align: center; }
+    .footer p { font-size: 12px; color: #a0aec0; line-height: 1.7; }
+    .footer a { color: #3a5f9f; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="card">
+
+      <div class="header">
+        <div class="logo-text">HT-<span>Marineservice</span></div>
+        <div class="header-tagline">Ihr Bootsmarktplatz</div>
+      </div>
+
+      <div class="body">
+
+        <div class="shield-icon">&#x1F6E1;&#xFE0F;</div>
+
+        <h1>Sicherheits&shy;bestätigung erforderlich</h1>
+
+        <p class="intro">
+          Sie haben eine sicherheitsrelevante Aktion auf HT-Marineservice angefordert.
+          Bitte geben Sie diesen Einmalcode zur Bestätigung ein.
+        </p>
+
+        <div class="otp-wrap">
+          <p class="otp-label">Ihr Einmalcode</p>
+          <div class="otp-code">
+            <span>{{ .Token }}</span>
+          </div>
+          <p class="otp-hint">Geben Sie diesen Code auf der Webseite ein</p>
+        </div>
+
+        <div class="validity-strip">
+          <div class="dot"></div>
+          <p>Dieser Code ist nur <strong>10 Minuten</strong> gültig und kann nur einmal verwendet werden.</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="security-tips">
+          <p class="heading">Sicherheitshinweise</p>
+          <ul>
+            <li>Geben Sie diesen Code niemals an Dritte weiter</li>
+            <li>HT-Marineservice fragt niemals telefonisch nach Ihrem Code</li>
+            <li>Falls Sie diese Aktion nicht selbst ausgelöst haben, ändern Sie umgehend Ihr Passwort</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer">
+        <p>
+          HT-Marineservice &nbsp;·&nbsp; <a href="{{ .SiteURL }}">ht-marineservice.de</a><br />
+          Professionelle Bootvermittlung &amp; Bootstransaktionen
+        </p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

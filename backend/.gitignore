@@ -1,0 +1,16 @@
+node_modules/
+dist/
+build/
+
+# NEVER commit these – they contain production secrets
+.env
+.env.local
+.env.production
+.env.staging
+
+# Keep the example template (no real secrets)
+!.env.example
+
+*.log
+coverage/
+*.tsbuildinfo
