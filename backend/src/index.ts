@@ -63,26 +63,27 @@ app.use(notFound);
 // Error handler
 app.use(errorHandler);
 
-const server = app.listen(config.port, () => {
-  console.log(`HT-Marineservice Backend running on port ${config.port}`);
-  console.log(`Environment: ${config.nodeEnv}`);
-});
-
-// Graceful shutdown
-const shutdown = () => {
-  console.log('Shutting down gracefully...');
-  server.close(() => {
-    console.log('Server closed');
-    process.exit(0);
+// Only start HTTP server when NOT running as Vercel serverless function
+if (!process.env.VERCEL) {
+  const server = app.listen(config.port, () => {
+    console.log(`HT-Marineservice Backend running on port ${config.port}`);
+    console.log(`Environment: ${config.nodeEnv}`);
   });
 
-  setTimeout(() => {
-    console.error('Forced shutdown');
-    process.exit(1);
-  }, 10000);
-};
+  const shutdown = () => {
+    console.log('Shutting down gracefully...');
+    server.close(() => {
+      console.log('Server closed');
+      process.exit(0);
+    });
+    setTimeout(() => {
+      console.error('Forced shutdown');
+      process.exit(1);
+    }, 10000);
+  };
 
-process.on('SIGTERM', shutdown);
-process.on('SIGINT', shutdown);
+  process.on('SIGTERM', shutdown);
+  process.on('SIGINT', shutdown);
+}
 
 export default app;
