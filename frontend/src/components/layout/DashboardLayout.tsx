@@ -27,7 +27,7 @@ export function DashboardLayout() {
       {/* Logo */}
       <div className="px-5 py-4 border-b border-gray-800">
         <NavLink to="/">
-          <img src="/logo.png" alt="HT-Marineservice" className="h-[50px] w-auto" />
+          <img src="/logo.png" alt="HT-Marinesales" className="h-[50px] w-auto" />
         </NavLink>
       </div>
 
@@ -112,7 +112,7 @@ export function DashboardLayout() {
           <button onClick={() => setSidebarOpen(true)} className="text-gray-300">
             <Menu className="h-6 w-6" />
           </button>
-          <span className="text-white font-semibold">HT-Marineservice</span>
+          <span className="text-white font-semibold">HT-Marinesales</span>
         </div>
 
         <main className="flex-1 p-6 overflow-y-auto">

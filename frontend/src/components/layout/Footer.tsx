@@ -9,16 +9,16 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="mb-4">
-              <img src="/logo.png" alt="HT-Marineservice" className="h-24 w-auto" />
+              <img src="/logo.png" alt="HT-Marinesales" className="h-24 w-auto" />
             </div>
             <p className="text-sm text-gray-400 max-w-xs leading-relaxed">
               Ihr vertrauenswürdiger Partner für geprüfte Boote und Yachten.
               Wir verbinden Käufer und Verkäufer mit professionellem Service und persönlicher Beratung.
             </p>
             <div className="flex flex-col gap-2 mt-4">
-              <a href="mailto:info@marine-service-sales.de" className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors">
+              <a href="mailto:info@ht-marinesales.de" className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors">
                 <Mail className="h-4 w-4" />
-                info@marine-service-sales.de
+                info@ht-marinesales.de
               </a>
             </div>
           </div>
@@ -46,7 +46,11 @@ export function Footer() {
         </div>
 
         <div className="border-t border-navy-800 mt-10 pt-8 text-center text-sm text-gray-500">
-          <p>&copy; {new Date().getFullYear()} HT-Marineservice. Alle Rechte vorbehalten.</p>
+          <p>&copy; {new Date().getFullYear()} HT-Marinesales. Alle Rechte vorbehalten.</p>
+          <p className="mt-2 flex items-center justify-center gap-4">
+            <Link to="/impressum" className="text-gray-500 hover:text-white transition-colors">Impressum</Link>
+            <Link to="/datenschutz" className="text-gray-500 hover:text-white transition-colors">Datenschutz</Link>
+          </p>
         </div>
       </div>
     </footer>

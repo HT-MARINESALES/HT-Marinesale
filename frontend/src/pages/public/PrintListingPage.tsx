@@ -128,11 +128,11 @@ export function PrintListingPage() {
 
           {/* ── Header ── */}
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '2px solid #1e3a5f', paddingBottom: 10, marginBottom: 14 }}>
-            <img src="/logo.png" alt="HT-Marineservice" style={{ height: 38, objectFit: 'contain' }} />
+            <img src="/logo.png" alt="HT-Marinesales" style={{ height: 38, objectFit: 'contain' }} />
             <div style={{ textAlign: 'right', fontSize: '8pt', color: '#6b7280', lineHeight: 1.6 }}>
               <div style={{ fontWeight: 700, color: '#1e3a5f', fontSize: '9pt' }}>Fahrzeug-Exposé</div>
               <div>Erstellt: {today}</div>
-              <div>info@marine-service-sales.de</div>
+              <div>info@ht-marinesales.de</div>
             </div>
           </div>
 
@@ -323,7 +323,7 @@ export function PrintListingPage() {
                   <span style={{ color: 'white', fontSize: '16pt', lineHeight: 1 }}>✓</span>
                 </div>
                 <div>
-                  <h2 style={{ fontSize: '14pt', color: '#1e3a5f', fontWeight: 900 }}>HT-Marineservice Prüfprotokoll</h2>
+                  <h2 style={{ fontSize: '14pt', color: '#1e3a5f', fontWeight: 900 }}>HT-Marinesales Prüfprotokoll</h2>
                   <div style={{ fontSize: '8pt', color: '#6b7280' }}>Professionelle Bootsinspektion · {today}</div>
                 </div>
               </div>

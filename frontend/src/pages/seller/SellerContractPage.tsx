@@ -24,7 +24,7 @@ export function SellerContractPage() {
   return (
     <div className="max-w-2xl">
       <h1 className="text-2xl font-bold text-gray-900 mb-2">Kommissionsvertrag</h1>
-      <p className="text-gray-500 text-sm mb-6">Ihre Vertragsvereinbarung mit HT-Marineservice</p>
+      <p className="text-gray-500 text-sm mb-6">Ihre Vertragsvereinbarung mit HT-Marinesales</p>
 
       {data ? (
         <div className="bg-white rounded-xl border border-gray-200 overflow-hidden">
@@ -78,7 +78,7 @@ export function SellerContractPage() {
             <div className="bg-amber-50 border border-amber-100 rounded-lg p-4 flex items-start gap-2">
               <AlertTriangle className="h-4 w-4 text-amber-600 flex-shrink-0 mt-0.5" />
               <p className="text-xs text-amber-800">
-                Bei Fragen zum Kommissionsvertrag wenden Sie sich bitte direkt an HT-Marineservice.
+                Bei Fragen zum Kommissionsvertrag wenden Sie sich bitte direkt an HT-Marinesales.
                 Die Provision beträgt max. <strong>8 % des Verkaufspreises</strong> (gestaffelt nach Preis).
               </p>
             </div>
@@ -91,7 +91,7 @@ export function SellerContractPage() {
             <p className="font-semibold text-gray-900">Kein Vertrag gefunden</p>
             <p className="text-sm text-gray-500 mt-1">
               Es wurde kein akzeptierter Kommissionsvertrag für Ihr Konto gefunden.
-              Bitte kontaktieren Sie HT-Marineservice.
+              Bitte kontaktieren Sie HT-Marinesales.
             </p>
           </div>
         </div>

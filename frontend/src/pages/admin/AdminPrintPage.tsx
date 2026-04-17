@@ -34,7 +34,7 @@ function PaperChecklist({ listing, adminUrl }: { listing: any; adminUrl: string 
 
       {/* Header */}
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '3px solid #1e3a5f', paddingBottom: 10, marginBottom: 14 }}>
-        <img src="/logo.png" alt="HT-Marineservice" style={{ height: 38, objectFit: 'contain' }} />
+        <img src="/logo.png" alt="HT-Marinesales" style={{ height: 38, objectFit: 'contain' }} />
         <div style={{ flex: 1, padding: '0 16px' }}>
           <h1 style={{ fontSize: '15pt', fontWeight: 900, color: '#1e3a5f', lineHeight: 1.2, marginBottom: 3 }}>Prüfprotokoll</h1>
           <div style={{ fontSize: '10pt', fontWeight: 700, color: '#111827' }}>{listing.title}</div>
@@ -149,7 +149,7 @@ function PaperChecklist({ listing, adminUrl }: { listing: any; adminUrl: string 
 
       {/* Footer */}
       <div style={{ marginTop: 12, paddingTop: 8, borderTop: '1px solid #e5e7eb', textAlign: 'center', fontSize: '7pt', color: '#9ca3af' }}>
-        HT-Marineservice · Professionelle Bootsinspektion & -vermittlung · info@marine-service-sales.de
+        HT-Marinesales · Professionelle Bootsinspektion & -vermittlung · info@ht-marinesales.de
       </div>
     </div>
   );
@@ -199,12 +199,12 @@ function FilledPDF({ listing, checklist, adminUrl }: { listing: any; checklist: 
 
         {/* Header */}
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '2px solid #1e3a5f', paddingBottom: 10, marginBottom: 14 }}>
-          <img src="/logo.png" alt="HT-Marineservice" style={{ height: 38, objectFit: 'contain' }} />
+          <img src="/logo.png" alt="HT-Marinesales" style={{ height: 38, objectFit: 'contain' }} />
           <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
             <div style={{ textAlign: 'right', fontSize: '8pt', color: '#6b7280', lineHeight: 1.6 }}>
               <div style={{ fontWeight: 700, color: '#1e3a5f', fontSize: '9pt' }}>Admin-Exposé</div>
               <div>Erstellt: {today}</div>
-              <div>info@marine-service-sales.de</div>
+              <div>info@ht-marinesales.de</div>
             </div>
             <img src={qrUrl} alt="QR Admin" style={{ width: 52, height: 52, display: 'block' }} />
           </div>
@@ -321,7 +321,7 @@ function FilledPDF({ listing, checklist, adminUrl }: { listing: any; checklist: 
               <span style={{ color: 'white', fontSize: '16pt', lineHeight: 1 }}>✓</span>
             </div>
             <div>
-              <h2 style={{ fontSize: '14pt', color: '#1e3a5f', fontWeight: 900 }}>HT-Marineservice Prüfprotokoll</h2>
+              <h2 style={{ fontSize: '14pt', color: '#1e3a5f', fontWeight: 900 }}>HT-Marinesales Prüfprotokoll</h2>
               <div style={{ fontSize: '8pt', color: '#6b7280' }}>Professionelle Bootsinspektion · {today}</div>
             </div>
           </div>

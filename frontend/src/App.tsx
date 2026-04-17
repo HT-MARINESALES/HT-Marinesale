@@ -24,6 +24,8 @@ import { ContactPage } from './pages/public/ContactPage';
 import { CheckupInfoPage } from './pages/public/CheckupInfoPage';
 import { BoatBrandsPage } from './pages/public/BoatBrandsPage';
 import { PrintListingPage } from './pages/public/PrintListingPage';
+import { ImpressumPage } from './pages/public/ImpressumPage';
+import { DatenschutzPage } from './pages/public/DatenschutzPage';
 
 // Auth pages
 import { LoginPage } from './pages/auth/LoginPage';
@@ -228,6 +230,8 @@ function AppRoutes() {
         <Route path="/kontakt" element={<ContactPage />} />
         <Route path="/checkup" element={<CheckupInfoPage />} />
         <Route path="/bootsmarken" element={<BoatBrandsPage />} />
+        <Route path="/impressum" element={<ImpressumPage />} />
+        <Route path="/datenschutz" element={<DatenschutzPage />} />
       </Route>
 
       {/* Auth routes — redirect to dashboard if already logged in */}

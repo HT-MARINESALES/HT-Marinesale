@@ -84,7 +84,7 @@ export function RegisterPage() {
       <div className="min-h-screen bg-gray-50 flex items-center justify-center py-12 px-4">
         <div className="max-w-md w-full text-center">
           <Link to="/">
-            <img src="/logo.png" alt="HT-Marineservice" className="h-[70px] w-auto mx-auto" />
+            <img src="/logo.png" alt="HT-Marinesales" className="h-[70px] w-auto mx-auto" />
           </Link>
           <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-8 mt-8">
             <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -114,7 +114,7 @@ export function RegisterPage() {
       <div className="max-w-md w-full">
         <div className="text-center mb-8">
           <Link to="/">
-            <img src="/logo.png" alt="HT-Marineservice" className="h-[70px] w-auto mx-auto" />
+            <img src="/logo.png" alt="HT-Marinesales" className="h-[70px] w-auto mx-auto" />
           </Link>
           <h2 className="text-xl font-semibold text-gray-900 mt-6">Konto erstellen</h2>
           <p className="text-gray-500 text-sm mt-1">Verkaufen Sie Ihr Boot professionell</p>
@@ -168,7 +168,7 @@ export function RegisterPage() {
               <div className="p-4">
                 <div className="flex items-start gap-2 mb-3 text-xs text-amber-800">
                   <AlertTriangle className="h-4 w-4 flex-shrink-0 mt-0.5" />
-                  <span>Mit der Registrierung bestätigen Sie, den Kommissionsvertrag gelesen und akzeptiert zu haben. HT-Marineservice erhebt bei erfolgreichem Verkauf eine Provision von <strong>max. 8 % (gestaffelt nach Verkaufspreis)</strong>.</span>
+                  <span>Mit der Registrierung bestätigen Sie, den Kommissionsvertrag gelesen und akzeptiert zu haben. HT-Marinesales erhebt bei erfolgreichem Verkauf eine Provision von <strong>max. 8 % (gestaffelt nach Verkaufspreis)</strong>.</span>
                 </div>
                 <label className="flex items-start gap-3 cursor-pointer">
                   <input type="checkbox" {...register('contractAccepted')} className="rounded border-amber-400 text-amber-700 focus:ring-amber-500 mt-0.5 h-4 w-4 flex-shrink-0" />

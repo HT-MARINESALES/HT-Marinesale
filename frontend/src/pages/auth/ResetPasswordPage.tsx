@@ -79,7 +79,7 @@ export function ResetPasswordPage() {
       <div className="max-w-md w-full">
         <div className="text-center mb-8">
           <Link to="/">
-            <img src="/logo.png" alt="HT-Marineservice" className="h-[70px] w-auto mx-auto" />
+            <img src="/logo.png" alt="HT-Marinesales" className="h-[70px] w-auto mx-auto" />
           </Link>
           <h2 className="text-xl font-semibold text-gray-900 mt-6">Neues Passwort festlegen</h2>
         </div>

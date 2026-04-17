@@ -28,17 +28,17 @@ export function ContactPage() {
               </div>
               <div>
                 <p className="font-medium text-navy-900">E-Mail</p>
-                <a href="mailto:info@marine-service-sales.de" className="text-ocean-500 hover:underline">
-                  info@marine-service-sales.de
+                <a href="mailto:info@ht-marinesales.de" className="text-ocean-500 hover:underline">
+                  info@ht-marinesales.de
                 </a>
               </div>
             </div>
           </div>
 
           <div className="bg-gray-50 rounded-xl p-6">
-            <h3 className="font-semibold text-gray-900 mb-3">Über HT-Marineservice</h3>
+            <h3 className="font-semibold text-gray-900 mb-3">Über HT-Marinesales</h3>
             <p className="text-sm text-gray-600 leading-relaxed">
-              HT-Marineservice ist Ihr professioneller Partner für den Kauf und Verkauf von Booten und Yachten.
+              HT-Marinesales ist Ihr professioneller Partner für den Kauf und Verkauf von Booten und Yachten.
               Unser Alleinstellungsmerkmal ist der persönliche Check-up Service: Jedes Boot auf unserer Plattform
               wird von erfahrenen Experten begutachtet – für maximale Transparenz und Sicherheit.
             </p>

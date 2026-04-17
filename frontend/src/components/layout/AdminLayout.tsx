@@ -47,7 +47,7 @@ export function AdminLayout() {
     <div className={cn(mobile ? '' : 'flex flex-col h-full')}>
       <div className="p-6 border-b border-purple-900">
         <NavLink to="/">
-          <img src="/logo.png" alt="HT-Marineservice" className="h-[50px] w-auto" />
+          <img src="/logo.png" alt="HT-Marinesales" className="h-[50px] w-auto" />
         </NavLink>
         <div className="flex items-center gap-1.5 mt-2">
           <Shield className="h-3.5 w-3.5 text-purple-300" />

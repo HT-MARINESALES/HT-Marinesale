@@ -13,7 +13,7 @@ export function CheckupInfoPage() {
             <span className="text-sm text-green-200 font-medium">Professioneller Expertendienst</span>
           </div>
           <h1 className="text-4xl font-bold mb-4">
-            Der HT-Marineservice Check-up
+            Der HT-Marinesales Check-up
           </h1>
           <p className="text-lg text-blue-100 max-w-2xl mx-auto">
             Mehr Vertrauen für Käufer und Verkäufer: Jedes Boot auf unserer Plattform wird
@@ -27,7 +27,7 @@ export function CheckupInfoPage() {
         <div className="prose max-w-none">
           <h2 className="text-2xl font-bold text-navy-900 mb-6">Was ist der Check-up?</h2>
           <p className="text-gray-600 leading-relaxed mb-6">
-            Beim HT-Marineservice Check-up bringen Sie Ihr Boot zu uns. Unsere zertifizierten Marine-Experten prüfen
+            Beim HT-Marinesales Check-up bringen Sie Ihr Boot zu uns. Unsere zertifizierten Marine-Experten prüfen
             bei uns vor Ort den allgemeinen Zustand des Rumpfes, der Motoren, der technischen Anlagen und der Sicherheitsausrüstung.
             Bei größeren Booten, die nicht transportiert werden können, kommen wir auf Anfrage zum Liegeplatz.
             Das Ergebnis: <strong className="text-navy-900 underline">Ein unabhängiges, professionelles Zustandsgutachten.</strong>

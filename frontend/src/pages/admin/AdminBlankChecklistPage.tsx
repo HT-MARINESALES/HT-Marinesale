@@ -74,13 +74,13 @@ function ChecklistSheet() {
       <div style={{ display: 'flex', alignItems: 'stretch', borderBottom: '3px solid #1e3a5f', paddingBottom: 12, marginBottom: 12, gap: 16 }}>
         {/* Logo */}
         <div style={{ flexShrink: 0, display: 'flex', alignItems: 'center' }}>
-          <img src="/logo.png" alt="HT-Marineservice" style={{ height: 44, objectFit: 'contain', display: 'block' }} />
+          <img src="/logo.png" alt="HT-Marinesales" style={{ height: 44, objectFit: 'contain', display: 'block' }} />
         </div>
 
         {/* Title */}
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', borderLeft: '3px solid #1e3a5f', paddingLeft: 14 }}>
           <div style={{ fontSize: '16pt', fontWeight: 900, color: '#1e3a5f', letterSpacing: '-0.3px', lineHeight: 1.1 }}>Prüfprotokoll</div>
-          <div style={{ fontSize: '8.5pt', color: '#6b7280', marginTop: 3 }}>HT-Marineservice · Professionelle Bootsinspektion</div>
+          <div style={{ fontSize: '8.5pt', color: '#6b7280', marginTop: 3 }}>HT-Marinesales · Professionelle Bootsinspektion</div>
         </div>
 
         {/* Info fields — right side */}
@@ -272,8 +272,8 @@ function ChecklistSheet() {
         display: 'flex', justifyContent: 'space-between', alignItems: 'center',
         fontSize: '6.5pt', color: '#9ca3af',
       }}>
-        <span>HT-Marineservice · Professionelle Bootsinspektion & -vermittlung</span>
-        <span>info@marine-service-sales.de</span>
+        <span>HT-Marinesales · Professionelle Bootsinspektion & -vermittlung</span>
+        <span>info@ht-marinesales.de</span>
       </div>
     </div>
   );

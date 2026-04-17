@@ -141,7 +141,7 @@ export function BoatDetailPage() {
                 <div className="mt-5 flex items-center gap-3 bg-green-50 border border-green-200 rounded-xl px-4 py-3">
                   <Shield className="h-6 w-6 text-green-600 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-green-800 text-sm">HT-Marineservice geprüft</p>
+                    <p className="font-semibold text-green-800 text-sm">HT-Marinesales geprüft</p>
                     <p className="text-xs text-green-600">Dieses Boot wurde von unseren Experten begutachtet und freigegeben</p>
                   </div>
                 </div>

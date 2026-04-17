@@ -38,7 +38,7 @@ export function ChecklistDisplay({ checklist }: Props) {
               <Shield className={`h-5 w-5 ${ratingInfo ? ratingInfo.color : 'text-green-600'}`} />
             </div>
             <div>
-              <p className={`font-bold text-sm ${ratingInfo ? ratingInfo.color : 'text-green-800'}`}>HT-Marineservice geprüft</p>
+              <p className={`font-bold text-sm ${ratingInfo ? ratingInfo.color : 'text-green-800'}`}>HT-Marinesales geprüft</p>
               <p className={`text-xs ${ratingInfo ? ratingInfo.color : 'text-green-600'} opacity-80`}>
                 {checkedCount} von {totalItems} Punkten geprüft{faultCount > 0 ? ` · ${faultCount} Mängel` : ''}
               </p>
@@ -72,7 +72,7 @@ export function ChecklistDisplay({ checklist }: Props) {
               <div className="flex items-center gap-3">
                 <Shield className="h-5 w-5 text-green-600" />
                 <div>
-                  <h2 className="font-bold text-gray-900 text-base">HT-Marineservice Prüfprotokoll</h2>
+                  <h2 className="font-bold text-gray-900 text-base">HT-Marinesales Prüfprotokoll</h2>
                   {rating && ratingInfo && (
                     <p className={`text-xs ${ratingInfo.color} font-medium`}>Gesamtzustand: {rating}/5 – {ratingInfo.label}</p>
                   )}
@@ -157,7 +157,7 @@ export function ChecklistDisplay({ checklist }: Props) {
             </div>
 
             <div className="p-4 border-t border-gray-100 text-center">
-              <p className="text-xs text-gray-400">Geprüft durch HT-Marineservice · Professionelle Bootsinspektion</p>
+              <p className="text-xs text-gray-400">Geprüft durch HT-Marinesales · Professionelle Bootsinspektion</p>
             </div>
           </div>
         </div>

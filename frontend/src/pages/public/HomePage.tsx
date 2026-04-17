@@ -48,7 +48,7 @@ export function HomePage() {
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               Ihr Boot verkaufen –<br />
-              <span className="text-blue-300">mit HT-Marineservice</span>
+              <span className="text-blue-300">mit HT-Marinesales</span>
             </h1>
 
             <p className="text-lg text-blue-100 mb-8 max-w-2xl leading-relaxed">
@@ -125,7 +125,7 @@ export function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-navy-900 mb-4">
-              Der HT-Marineservice Check-up
+              Der HT-Marinesales Check-up
             </h2>
             <p className="text-gray-500 max-w-2xl mx-auto">
               Jedes Boot auf unserer Plattform wird bei uns vor Ort von unseren Experten persönlich begutachtet.
@@ -145,7 +145,7 @@ export function HomePage() {
                 step: '02',
                 icon: Shield,
                 title: 'Persönliche Begutachtung',
-                desc: 'Ihr Boot wird bei uns vor Ort von unseren Experten begutachtet. Bei größeren Booten kommen wir auf Anfrage auch zum Liegeplatz. Der Check-up wird vorab bezahlt und beim erfolgreichen Verkauf über HT-Marineservice vollständig gegen die Provision verrechnet.',
+                desc: 'Ihr Boot wird bei uns vor Ort von unseren Experten begutachtet. Bei größeren Booten kommen wir auf Anfrage auch zum Liegeplatz. Der Check-up wird vorab bezahlt und beim erfolgreichen Verkauf über HT-Marinesales vollständig gegen die Provision verrechnet.',
               },
               {
                 step: '03',
@@ -240,7 +240,7 @@ export function HomePage() {
             Wir helfen Ihnen gerne beim Verkauf Ihres Bootes oder bei der Suche nach dem perfekten Boot.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <a href="mailto:info@marine-service-sales.de">
+            <a href="mailto:info@ht-marinesales.de">
               <Button variant="outline" size="lg" className="flex items-center gap-2">
                 <Mail className="h-5 w-5" />
                 E-Mail schreiben

@@ -39,7 +39,7 @@ export function ForgotPasswordPage() {
         <div className="text-center mb-8">
           <Link to="/" className="inline-flex items-center gap-2 text-navy-900 font-bold text-2xl">
             <Anchor className="h-8 w-8 text-blue-600" />
-            HT-Marineservice
+            HT-Marinesales
           </Link>
           <h2 className="text-xl font-semibold text-gray-900 mt-6">Passwort zurücksetzen</h2>
         </div>
